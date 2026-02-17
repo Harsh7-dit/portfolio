@@ -33,7 +33,7 @@ export default function HeroSection() {
             </svg>
 
             <img
-                src="/assets/picofme.png"
+                src="./public/assets/picofme.png"
                 alt="Profile Image"
                 className="size-36 rounded-full"
                 width={144}
