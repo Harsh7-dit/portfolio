@@ -1,16 +1,8 @@
-# Ryan - Next JS Portfolio Template
-#### Preview
-
- - [Demo](https://themewagon.github.io/ryan/)
-
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/ryan/)
-
 ## Getting Started
 
 1. Clone Repository
 ```
-git clone https://github.com/themewagon/ryan.git
+git clone https://github.com/Harsh7-dit/portfolio.git
 ```
 2. Install Dependencies
 ```
@@ -32,9 +24,3 @@ bun dev
 ```
 Design and code is completely written by codescandy and development team. 
 ```
-
-## License
-
- - Design and Code is Copyright &copy; <a href="url" target="_blank">codescandy</a>
- - Licensed cover under [MIT]
- - Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
