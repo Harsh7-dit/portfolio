@@ -2,28 +2,44 @@ import Section from "../components/section";
 
 export default function ExperienceSection() {
     const experience = [
-        {
-            image: "/assets/google.svg",
-            title: "Sr. Software engineer",
-            company: "Google",
-            location: "New York",
-            start: "Jan 2024",
+           {
+            image: "assets/bing.png",
+            title: "Innovation Lab Student Assistant",
+            company: "Binghamton University",
+            location: "Binghamton, NY",
+            start: "Aug 2025",
             end: "Present",
             description: [
-                "Lead end-to-end development of large-scale, high-performance systems used by millions of users.",
-                "Mentor junior engineers, conduct code reviews, and uphold engineering best practices.",
+                "Assisting 50+ students and instructors to manage the innovation lab space with technology.", 
+                "Managing windows, apple operating systems and online conferencing software tools.",        
             ],
         },
         {
-            image: "/assets/microsoft.svg",
-            title: "Full Stack developer",
-            company: "Microsoft",
-            location: "London",
-            start: "May 2021",
-            end: "Dec 2024",
+            image: "assets/interlinked.png",
+            title: "Cloud/Infrastructure Intern",
+            company: "Interlinked",
+            location: "Berkeley, CA",
+            start: "July 2025",
+            end: "Dec 2025",
             description: [
-                "Full-stack development of large-scale, high-performance systems used by millions of users.",
-                "Mentor junior engineers, conduct code reviews, and uphold engineering best practices.",
+                "Architected and scaled AWS cloud infrastructure across 3+ environments, achieving system reliability through automated mechanis-ms and monitoring.", 
+                "Collaborated with backend, infrastructure, and data team to support AI-driven applications used by public agencies.", 
+                "Implemented automated validation scripts for infrastructure components, catching 95% of configuration drift before production deployment.", 
+            ],
+        },
+        {
+            image: "assets/edel.png",
+            title: "DevOps Engineer",
+            company: "Edelweiss Global Markets",
+            location: "Mumbai, India",
+            start: " June 2022",
+            end: "Aug 2024",
+            description: [
+                "Automated 20+ CI/CD pipelines using Jenkins, Python, Bash, and Groovy eliminating 80% of manual deployment errors and accelerating release cycles from 6 hours to under 2 minutes.", 
+                "Engineered Groovy-based Jenkins pipeline that automated build, test, tag, and deployment across Dev/QA/Prod environments boosting developer productivity by 90% and reducing time-to-market by quick release.",
+                "Optimized Linux system performance by developing automated cleanup scripts that reclaimed 0.5TB storage and reduced CPU overhead by 22%, extending server lifespan.",
+                "Enforced security compliance across Bitbucket, SVN, and Nexus repositories established IAM policies and access controls achieving 100% audit compliance with zero security incidents.", 
+                "Validated platform stability through load testing and performance benchmarking, identifying and resolving 15+ critical bottlenecks before production deployment.",
             ],
         },
     ];

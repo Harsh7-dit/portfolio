@@ -8,7 +8,7 @@ export default function EducationSection() {
                     <div className="flex flex-col md:flex-row items-start md:items-center gap-3">
                         <div className="bg-gray-50 border border-gray-200 rounded-lg p-3">
                             <img
-                                src="/assets/education-image-1.png"
+                                src="assets/bing.png"
                                 alt="Education"
                                 width={25}
                                 height={25}
@@ -17,14 +17,14 @@ export default function EducationSection() {
                         </div>
                         <div>
                             <h3 className="text-base font-medium text-gray-800">
-                                Bachelor in Computer Science
+                                Master's in Computer Science
                             </h3>
-                            <div>Whiting School of Engineering</div>
+                            <div>SUNY Binghamton University</div>
                         </div>
                     </div>
-                    <div>Sep 2018 - May 2022</div>
+                    <div>Aug 2024 - May 2026</div>
                 </div>
-                <p className="mt-6 text-gray-500">A significant part of the education involves practical experience through labs and projects, which are designed to enhance problem-solving skills</p>
+                <p className="mt-6 text-gray-500">Data Mining, System Programming, Cloud Computing, Database Systems and Management, Design Pattern</p>
             </div>
         </Section>
     );
