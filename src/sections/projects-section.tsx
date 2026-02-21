@@ -10,7 +10,7 @@ export default function ProjectsSection() {
         },
         {
             title: "Self-Healing Backup Monitoring System",
-            description: "Automatically detects and resolves backup failures using a self-healing mechanism.",
+            description: "Detects and resolves backup failures",
             link: "https://github.com/Harsh7-dit/Self-Healing_MongoDB_Backup_Monitor",
             image: "assets/self_heal.png",
         },
@@ -18,32 +18,31 @@ export default function ProjectsSection() {
 
     return (
         <Section title="Projects">
-            <div className="flex flex-wrap justify-center items-center gap-4 mr-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {projects.map((project) => (
-                <a
-                    key={project.title}
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:-translate-y-0.5 transition duration-300 max-w-75 border border-gray-200 rounded-xl block cursor-pointer"
-                >
-                    <img
-                    className="rounded-t-xl h-42 object-cover"
-                    src={project.image}
-                    alt={project.title}
-                    width={300}
-                    height={170}
-                    />
-                    <div className="p-4">
-                    <h3 className="text-base font-medium">
-                        {project.title}
-                    </h3>
-                    <p className="text-gray-500 mt-1">
-                        {project.description}
-                    </p>
-                    </div>
-                </a>
-                ))}
+            <a
+                key={project.title}
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full max-w-sm bg-white border border-gray-200 rounded-xl shadow-md hover:shadow-xl transition duration-300 hover:-translate-y-1 overflow-hidden"
+            >
+                <img
+                className="w-full h-48 object-cover"
+                src={project.image}
+                alt={project.title}
+                />
+                
+                <div className="p-4 flex flex-col h-40 justify-between">
+                <h3 className="text-lg font-semibold">
+                    {project.title}
+                </h3>
+                <p className="text-gray-500 text-sm mt-2">
+                    {project.description}
+                </p>
+                </div>
+            </a>
+            ))}
             </div>
         </Section>
     );

@@ -47,13 +47,20 @@ export default function HeroSection() {
                 DevOps Engineer | Cloud Enthusiast
             </p>
             <div className="mt-6">
-                <button className="group bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg">
+                <a
+                    href={`${import.meta.env.BASE_URL}resume.pdf`}
+                    download="Harsh_Masane_Resume.pdf"
+                    className="group bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg inline-flex items-center"
+                    >
                     Resume
-                    <ArrowRightIcon className="group-hover:translate-x-0.5 transition ml-1 size-5 inline-flex" />
-                </button>
-                <button className="border border-gray-400 hover:bg-gray-100/70 px-6 py-2.5 rounded-lg ml-4">
-                    Connect me
-                </button>
+                    <ArrowRightIcon className="group-hover:translate-x-0.5 transition ml-1 size-5" />
+                </a>
+                <a
+                href="mailto:hmasane@binghamton.edu"
+                className="border border-gray-400 hover:bg-gray-100/70 px-6 py-2.5 rounded-lg ml-4 inline-flex items-center"
+                >
+                Contact Me
+                </a>
             </div>
             <div className="space-x-6 mt-10">
                 <a href="#" className="inline-flex hover:-translate-y-0.5 transition">
