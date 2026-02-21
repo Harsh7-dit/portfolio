@@ -49,7 +49,7 @@ export default function HeroSection() {
             <div className="mt-6">
                 <a
                     href={`${import.meta.env.BASE_URL}resume.pdf`}
-                    download="Harsh_Masane_Resume.pdf"
+                    download="resume.pdf"
                     className="group bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg inline-flex items-center"
                     >
                     Resume
