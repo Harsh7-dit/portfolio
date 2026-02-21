@@ -12,7 +12,7 @@ export default function ProjectsSection() {
             title: "Self-Healing Backup Monitoring System",
             description: "Automatically detects and resolves backup failures using a self-healing mechanism.",
             link: "https://github.com/Harsh7-dit/Self-Healing_MongoDB_Backup_Monitor",
-            image: "assets/Live_Chat.png",
+            image: "assets/self_heal.png",
         },
     ];
 
