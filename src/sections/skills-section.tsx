@@ -19,7 +19,7 @@ export default function SkillsSection() {
         "Azure",
         "GCP",
         "CI/CD",
-        "Bit bucket",
+        "BitBucket",
         "Jira",
         "SVN",
     ];
